@@ -1,0 +1,24 @@
+{
+  "_id": "64f2a7b2c8e4a12345678902",
+  "file_name": "medium_invoice.pdf",
+  "document_type": "invoice",
+  "extracted_fields": {
+    "invoice_number": "INV-2001",
+    "invoice_date": "2026-07-20",
+    "vendor_name": "Bright Office Supplies",
+    "customer_name": "Apex Learning Center",
+    "total_amount": 990.0,
+    "tax_amount": 90.0,
+    "currency": "US"
+  },
+  "missing_fields": [],
+  "inconsistencies": [
+    "currency is not exactly three alphabetic characters"
+  ],
+  "risk_level": "Medium",
+  "risk_reasons": [
+    "Currency format is invalid"
+  ],
+  "processing_status": "completed",
+  "created_at": "2026-07-27T00:00:00+00:00"
+}

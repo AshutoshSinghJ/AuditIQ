@@ -1,0 +1,14 @@
+INVOICE
+
+Invoice Number: INV-1001
+Invoice Date: 2026-07-20
+
+Vendor Name: Bright Office Supplies
+Customer Name: Apex Learning Center
+
+Subtotal: 900.00
+Tax Amount: 90.00
+Total Amount: 990.00
+Currency: USD
+
+Payment Terms: Due within 15 days

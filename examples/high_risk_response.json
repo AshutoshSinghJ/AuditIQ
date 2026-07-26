@@ -1,0 +1,28 @@
+{
+  "_id": "64f2a7b2c8e4a12345678903",
+  "file_name": "high_invoice.pdf",
+  "document_type": "invoice",
+  "extracted_fields": {
+    "invoice_number": null,
+    "invoice_date": null,
+    "vendor_name": "Bright Office Supplies",
+    "customer_name": "Apex Learning Center",
+    "total_amount": 990.0,
+    "tax_amount": 1200.0,
+    "currency": "USD"
+  },
+  "missing_fields": [
+    "invoice_number",
+    "invoice_date"
+  ],
+  "inconsistencies": [
+    "tax_amount is greater than total_amount"
+  ],
+  "risk_level": "High",
+  "risk_reasons": [
+    "Two or more mandatory fields are missing",
+    "Tax amount is greater than total amount"
+  ],
+  "processing_status": "completed",
+  "created_at": "2026-07-27T00:00:00+00:00"
+}
