@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class InvoiceFields(BaseModel):
@@ -21,3 +21,9 @@ class AuditResult(BaseModel):
     risk_reasons: list[str]
     processing_status: str
     created_at: str
+
+
+class QueryRequest(BaseModel):
+    question: str
+    document_id: str | None = None
+    top_k: int = Field(default=3, ge=1, le=5)
